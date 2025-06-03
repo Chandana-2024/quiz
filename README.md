@@ -38,7 +38,7 @@ To run locally:
 
 ## 🧑‍💻 Author
 
-Made with ❤️ by K.Sree chandana
+Made with ❤️ by K.Sree Chandana
 
 ---
 
