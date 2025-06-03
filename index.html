@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Quiz</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h2>Quiz</h2>
+
+  <form id="quizForm">
+    <p>1. What is the correct way to declare a variable in C++?</p>
+    <label><input type="radio" name="q1" value="a"> int x = 5;</label>
+    <label><input type="radio" name="q1" value="b"> int x := 5;</label>
+    <label><input type="radio" name="q1" value="c"> x = int 5;</label>
+    <label><input type="radio" name="q1" value="d"> var x = 5;</label>
+
+    <p>2. Which of these is a correct loop syntax in C++?</p>
+    <label><input type="radio" name="q2" value="a"> for x to 10</label>
+    <label><input type="radio" name="q2" value="b"> foreach x in 10</label>
+    <label><input type="radio" name="q2" value="c"> for(int i=0; i&lt;10; i++)</label>
+    <label><input type="radio" name="q2" value="d"> loop x=1 to 10</label>
+
+    <p>3. What does 'cout' do in C++?</p>
+    <label><input type="radio" name="q3" value="a"> Takes input</label>
+    <label><input type="radio" name="q3" value="b"> Prints output</label>
+    <label><input type="radio" name="q3" value="c"> Declares variable</label>
+    <label><input type="radio" name="q3" value="d"> None</label>
+
+    <p>4. Which header file is needed for input/output functions?</p>
+    <label><input type="radio" name="q4" value="a"> iostream.h</label>
+    <label><input type="radio" name="q4" value="b"> conio.h</label>
+    <label><input type="radio" name="q4" value="c"> stdio.h</label>
+    <label><input type="radio" name="q4" value="d"> iostream</label>
+
+    <p>5. What symbol is used to access a pointer’s value?</p>
+    <label><input type="radio" name="q5" value="a"> &</label>
+    <label><input type="radio" name="q5" value="b"> *</label>
+    <label><input type="radio" name="q5" value="c"> -></label>
+    <label><input type="radio" name="q5" value="d"> $</label>
+
+    <p>6. Which keyword is used to define a class?</p>
+    <label><input type="radio" name="q6" value="a"> def</label>
+    <label><input type="radio" name="q6" value="b"> class</label>
+    <label><input type="radio" name="q6" value="c"> object</label>
+    <label><input type="radio" name="q6" value="d"> structure</label>
+
+    <p>7. What is the correct file extension for C++?</p>
+    <label><input type="radio" name="q7" value="a"> .cp</label>
+    <label><input type="radio" name="q7" value="b"> .ccp</label>
+    <label><input type="radio" name="q7" value="c"> .cpp</label>
+    <label><input type="radio" name="q7" value="d"> .c++</label>
+
+    <p>8. Which operator is used to compare two values?</p>
+    <label><input type="radio" name="q8" value="a"> =</label>
+    <label><input type="radio" name="q8" value="b"> ==</label>
+    <label><input type="radio" name="q8" value="c"> :=</label>
+    <label><input type="radio" name="q8" value="d"> equals</label>
+
+    <p>9. Which keyword is used to inherit a class?</p>
+    <label><input type="radio" name="q9" value="a"> inherit</label>
+    <label><input type="radio" name="q9" value="b"> this</label>
+    <label><input type="radio" name="q9" value="c"> extends</label>
+    <label><input type="radio" name="q9" value="d"> public</label>
+
+    <p>10. What does 'return 0;' mean in main()?</p>
+    <label><input type="radio" name="q10" value="a"> Loop back to start</label>
+    <label><input type="radio" name="q10" value="b"> Print 0</label>
+    <label><input type="radio" name="q10" value="c"> Exit program successfully</label>
+    <label><input type="radio" name="q10" value="d"> End loop</label>
+
+    <button type="button" onclick="checkAnswers()">Submit</button>
+  </form>
+  <script src="script.js"></script>
+ 
+</body>
+</html>
